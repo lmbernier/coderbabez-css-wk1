@@ -3,7 +3,7 @@
 ##  Week Two - Intro to CSS
 
 ### Objectives
-Create your first CSS file, link it to your HTML page. Learn about selectors, properties and values in CSS. 
+Create your first CSS file, link it to your HTML page. Learn about selectors, properties and values in CSS.
 
 ### Vocab
 * CSS
@@ -12,21 +12,21 @@ Create your first CSS file, link it to your HTML page. Learn about selectors, pr
 * Tag / ID / Class Selectors
 
 ### Introduction
-CSS can be an extremely powerful tool! Check out [CSS Zen Garden](http://www.csszengarden.com/) to get inspired. All of these pages use exactly the same HTML file - the only change is the CSS. 
+CSS can be an extremely powerful tool! Check out [CSS Zen Garden](http://www.csszengarden.com/) to get inspired. All of these pages use exactly the same HTML file - the only change is the CSS.
 
 ### Lesson - Intro to CSS:
-Last week we learned that HTML provides the data and the structure for our websites. 
-This week we're learning about CSS, which provides the visual style and layout for our website. 
+Last week we learned that HTML provides the data and the structure for our websites.
+This week we're learning about CSS, which provides the visual style and layout for our website.
 
 1. Let's create our first css page. Add a file to your project called main.css (note the file extension)
 
-2. Our CSS won't do anything to our HTML page unless we link them together. Link to your new CSS file by adding the following tag to the `<head>` of your HTML file. 
+2. Our CSS won't do anything to our HTML page unless we link them together. Link to your new CSS file by adding the following tag to the `<head>` of your HTML file.
 
 ```html
 <link rel="stylesheet" type="text/css" href="main.css">
 ```
 
-4. Time to add our first style! In your CSS file, add the following code: 
+4. Time to add our first style! In your CSS file, add the following code:
 
 ```css
 body {
@@ -64,23 +64,23 @@ There are three important parts of this rule: the selector (body), the property 
 		color: blue; /* I make only the text in the element with the byline id blue */
 	}
 ```
-6. Tag selectors are great for general, base styles - like changing all the font to arial, or the back ground of the page to blue. IDs should only be applied to important unique objects like your header or your nav. IDs should only be used on one element, and not repeated. Classes are great when you have a group of elements that you want to be styled the same way - like turning some of the paragraphs blue, but not all of them. 
+6. Tag selectors are great for general, base styles - like changing all the font to arial, or the back ground of the page to blue. IDs should only be applied to important unique objects like your header or your nav. IDs should only be used on one element, and not repeated. Classes are great when you have a group of elements that you want to be styled the same way - like turning some of the paragraphs blue, but not all of them.
 
 7. CSS Property / Value pairs describe how you want to style the element that you have selected. You can put several properties within one selector, as long as they're all inside the curly brackets {}. Try the following properties: `font-family`, `background-color`, `color`, `border`
 
 
 ### Practice
-1. Open up your recipe repo from last week's homework (or use the starter code provided in this project). 
+1. Open up your recipe repo from last week's homework (or use the starter code provided in this project).
 2. See if you can use your new CSS skills to make your recipe page look like [this example page](./img/best_cookies_mock.jpg)
 3. Don't forget to commit your code, and publish your page to gh-pages when you're done!
 
-##### HINTS: 
+##### HINTS:
 
-Fonts used: 
+Fonts used:
 * Arial, Helvetica, sans-serif
 * "Trebuchet MS", Helvetica, sans-serif
 
-Colors used: 
+Colors used:
 * #F9F264
 * #FFFFFF
 * #333333
@@ -89,4 +89,4 @@ Colors used:
 
 ### Final Thoughts
 Today we learned how we can use CSS to add style to our pages.
-Next week we’ll take a look at how CSS can change the layout of our pages by creating space, columns, and centering elements. 
+Next week we’ll take a look at how CSS can change the layout of our pages by creating space, columns, and centering elements.
